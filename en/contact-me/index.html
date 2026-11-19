@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Taco Viajero</title>
+    <link rel="icon" type="image/png" href="../../assets/default_icon.png">
+    <meta name="description" content="Contact Taco Viajero for projects, collaborations, reviews or ideas.">
+    <link rel="canonical" href="../../en/contact-me/">
+    <link rel="alternate" hreflang="es" href="../../es/contact-me/">
+    <link rel="alternate" hreflang="en" href="../../en/contact-me/">
+    <link rel="alternate" hreflang="x-default" href="../../es/contact-me/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="../../css/styles.css?v=20260515-digital-6">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="../" aria-label="Back to Taco Viajero">
+        <img class="brand-mark" src="../../assets/default_icon.png" alt="" aria-hidden="true">
+        <span>Taco Viajero</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="../#about">Overview</a>
+        <a href="../about-me/">Story</a>
+        <a href="../#help">What I do</a>
+        <a href="../#projects">Projects</a>
+        <a href="../#projects">Systems</a>
+        <a href="../#beep-beep-anchor">Beep Beep</a>
+        <a href="../#hometours360-anchor">HomeTours360</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle><span></span><span></span><span></span></button>
+      <div class="language-switch" aria-label="Language">
+        <a href="../../es/contact-me/">ES</a>
+        <a aria-current="page" href="../../en/contact-me/">EN</a>
+      </div>
+      <a class="header-cta" href="../">Home</a>
+      <div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
+        <a href="../#about">Overview</a>
+        <a href="../about-me/">Story</a>
+        <a href="../#help">What I do</a>
+        <a href="../#projects">Projects</a>
+        <a href="../#projects">Systems</a>
+        <a href="../#beep-beep">Beep Beep</a>
+        <a href="../#hometours360">HomeTours360</a>
+        <a href="../#contact">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-page">
+        <article class="contact-card">
+          <p class="section-kicker">Contact</p>
+          <h1>Let's talk</h1>
+          <p>Tell me about your project, collaboration, review or idea. The message will be prepared for juan@tacoviajero.com.</p>
+
+          <form
+            class="contact-form"
+            data-contact-form
+            data-home-url="../"
+            data-subject="Contact from Taco Viajero"
+            data-name-error="Write your name, at least 2 characters."
+            data-email-error="Write a valid email address."
+            data-message-error="Write a comment."
+            data-invalid-status="Check the marked fields."
+            data-sending-status="Opening your email..."
+            novalidate
+          >
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" minlength="2" required>
+              <span class="form-error" data-error-for="name"></span>
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <span class="form-error" data-error-for="email"></span>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Comments</label>
+              <textarea id="message" name="message" required></textarea>
+              <span class="form-error" data-error-for="message"></span>
+            </div>
+
+            <button class="button primary" type="submit">Send message</button>
+            <p class="form-status" data-form-status aria-live="polite"></p>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <span>Taco Viajero © 2024</span>
+      <span>Travel, content, operations and practical technology.</span>
+    </footer>
+
+    <script src="../../js/main.js?v=20260515-digital-6"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+

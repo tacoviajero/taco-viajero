@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Paleta de color Taco Viajero</title>
+  <desc id="desc">Mockup visual con los colores de marca Taco Viajero, valores HEX y RGB.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8f4ec; }
+      .title { fill: #18201d; font-family: Georgia, serif; font-size: 82px; font-weight: 700; }
+      .subtitle { fill: #6b756e; font-family: Arial, sans-serif; font-size: 24px; font-weight: 700; }
+      .label { fill: #18201d; font-family: Arial, sans-serif; font-size: 25px; font-weight: 800; }
+      .use { fill: #6b756e; font-family: Arial, sans-serif; font-size: 18px; font-weight: 700; }
+      .value { fill: #18201d; font-family: "Courier New", monospace; font-size: 21px; font-weight: 700; }
+      .card { fill: #fffaf2; stroke: rgba(24, 32, 29, 0.14); stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1400" height="900"/>
+  <text class="title" x="80" y="118">Taco Viajero</text>
+  <text class="subtitle" x="86" y="162">Paleta de marca | HEX + RGB</text>
+
+  <g transform="translate(80 225)">
+    <rect class="card" x="0" y="0" width="360" height="250" rx="8"/>
+    <rect x="28" y="28" width="304" height="92" rx="6" fill="#173d32"/>
+    <text class="label" x="28" y="158">Verde profundo</text>
+    <text class="use" x="28" y="188">Base de marca / secciones fuertes</text>
+    <text class="value" x="28" y="224">#173D32  |  rgb(23, 61, 50)</text>
+  </g>
+
+  <g transform="translate(520 225)">
+    <rect class="card" x="0" y="0" width="360" height="250" rx="8"/>
+    <rect x="28" y="28" width="304" height="92" rx="6" fill="#b83f32"/>
+    <text class="label" x="28" y="158">Rojo tomate</text>
+    <text class="use" x="28" y="188">Botones / acentos principales</text>
+    <text class="value" x="28" y="224">#B83F32  |  rgb(184, 63, 50)</text>
+  </g>
+
+  <g transform="translate(960 225)">
+    <rect class="card" x="0" y="0" width="360" height="250" rx="8"/>
+    <rect x="28" y="28" width="304" height="92" rx="6" fill="#fffaf2" stroke="#d8d0c3"/>
+    <text class="label" x="28" y="158">Blanco calido</text>
+    <text class="use" x="28" y="188">Fondos claros / tarjetas</text>
+    <text class="value" x="28" y="224">#FFFAF2  |  rgb(255, 250, 242)</text>
+  </g>
+
+  <g transform="translate(80 535)">
+    <rect class="card" x="0" y="0" width="360" height="250" rx="8"/>
+    <rect x="28" y="28" width="304" height="92" rx="6" fill="#18201d"/>
+    <text class="label" x="28" y="158">Negro carbon</text>
+    <text class="use" x="28" y="188">Texto principal</text>
+    <text class="value" x="28" y="224">#18201D  |  rgb(24, 32, 29)</text>
+  </g>
+
+  <g transform="translate(520 535)">
+    <rect class="card" x="0" y="0" width="360" height="250" rx="8"/>
+    <rect x="28" y="28" width="304" height="92" rx="6" fill="#6b756e"/>
+    <text class="label" x="28" y="158">Gris verdoso</text>
+    <text class="use" x="28" y="188">Texto secundario</text>
+    <text class="value" x="28" y="224">#6B756E  |  rgb(107, 117, 110)</text>
+  </g>
+
+  <g transform="translate(960 535)">
+    <rect class="card" x="0" y="0" width="360" height="250" rx="8"/>
+    <rect x="28" y="28" width="304" height="92" rx="6" fill="#19a7bd"/>
+    <text class="label" x="28" y="158">Azul cielo</text>
+    <text class="use" x="28" y="188">Acento secundario puntual</text>
+    <text class="value" x="28" y="224">#19A7BD  |  rgb(25, 167, 189)</text>
+  </g>
+
+  <rect x="80" y="826" width="1240" height="8" fill="#173d32"/>
+  <rect x="80" y="834" width="1240" height="8" fill="#b83f32"/>
+</svg>

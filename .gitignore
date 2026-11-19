@@ -1,0 +1,38 @@
+# Track the public static site and version-control configuration only.
+/*
+!/.gitignore
+!/.htaccess
+!/index.html
+!/css/
+!/js/
+!/assets/
+!/es/
+!/en/
+!/tours/
+
+# Secrets and local configuration, including inside public directories.
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_ed25519
+credentials*
+
+# Dependencies, caches, temporary files, and operating-system metadata.
+node_modules/
+.cache/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
